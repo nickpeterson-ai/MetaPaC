@@ -13,17 +13,17 @@
 
 ## Tutorials
 ### Jupyter notebook
-1. download MetaPaC and LIMMAdata.csv from the github
-2. open the MetaPaC code in jupyter notebook
-3. specify the current directory, put LIMMAdata.csv or your input data in this directory
+1. Download MetaPaC and LIMMAdata.csv from the github
+2. Open the MetaPaC code in jupyter notebook
+3. Specify the current directory, put LIMMAdata.csv or your input data in this directory
    ![Specify the Directory](directory.png)
-4. put LIMMAdata.csv or your input data in this directory
+4. Put LIMMAdata.csv (test data) or your own input data (must be structured as below) in this directory
    ![Specify the Input](input.png)
-5. specify the target directory for the output in the evaluation area of the code
-6. enter in the name of your input in block 4
+5. Specify the target directory for the output in the evaluation area of the code
+6. Enter in the name of your input in block 4, run the code in the order of the block
 ## Optional
-1. use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers.
-2. change the configuration of the code to work for the combination blocks by removing the hashtags from the path below to open the alternate output path
+1. Use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers
+2. Change the configuration of the code to work for the combination blocks by removing the hashtags from the path below to open the alternate output path
    
    ![Output pathways](outputpath.png)
    
@@ -31,16 +31,12 @@
 
 
 ```
-
-4. Example Output
+## Example Output
 
 The prediction results and evaluations will be stored and exported to a folder named stackeval (10 classifiers LOO) in your specified directory.
-evaluations are saved for all base and meta-learning classifiers
+Evaluations are saved for all base and meta-learning classifiers.
 
 ![Example Outputs](OUTPUTgithub.png)
-
-The prediction results and evaluations will be stored and exported to a folder named stackeval (10 classifiers LOO) in your specified directory.
-evaluations are saved for all base and meta-learning classifiers
 
 ## Bug Report
 
