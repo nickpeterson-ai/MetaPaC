@@ -2,7 +2,7 @@
 **MetaPaC** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaC is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may provide insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
 
 ## Flowchart of MetaPaC
-![Flowchart of MetaPaC](Flowchart.png)
+![Flowchart of MetaPaC](flowchart.png)
 
 ## Table of Contents
 - [Installation](#installation)
