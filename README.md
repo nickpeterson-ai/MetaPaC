@@ -1,5 +1,5 @@
 # MetaPaC: A Novel <ins>Meta</ins>-learning Model for <ins>Pa</ins>ncreatic <ins>C</ins>ancer Subtype Prediction <ins>B</ins>-cell <ins>A</ins>cute <ins>L</ins>ymphoblastic <ins>L</ins>eukemia
-**MetaPaC** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaC is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may valueble insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
+**MetaPaC** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaC is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may provide insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
 
 ## Flowchart of MetaPaC
 ![Flowchart of MetaPaC](Flowchart.png)
@@ -10,38 +10,32 @@
 - [Bug Report](#Bug-Report)
 - [Authors](#Authors)
 - [Publication](#Publication)
-## Installation
-1. Clone the MetaPaC git repository
-```bash
-git clone https://github.com/wan-mlab/MetaPaC.git
-```
-2. Navigate to the directory of RanBALL package
-```bash
-cd /your path/MetaPaC
-pip install .
-```
+
 ## Tutorials
 ### Jupyter notebook
 1. download MetaPaC and LIMMAdata.csv from the github
-2. open MetaPaC in jupytr notebook
+2. open the MetaPaC code in jupyter notebook
 3. specify the current directory, put LIMMAdata.csv or your input data in this directory
    ![Specify the Directory](directory.png)
+4. put LIMMAdata.csv or your input data in this directory
    ![Specify the Input](input.png)
 5. specify the target directory for the output in the evaluation area of the code
 6. enter in the name of your input in block 4
 ## Optional
 1. use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers.
-2. change the configuration of the code to work for the combinatin blocks by removing the hashtags from the path below
+2. change the configuration of the code to work for the combination blocks by removing the hashtags from the path below to open the alternate output path
    
    ![Output pathways](outputpath.png)
    
 ```
-3. PaC su
 
 
 ```
 
-4. Example Outputs
+4. Example Output
+
+The prediction results and evaluations will be stored and exported to a folder named stackeval (10 classifiers LOO) in your specified directory.
+evaluations are saved for all base and meta-learning classifiers
 
 ![Example Outputs](OUTPUTgithub.png)
 
