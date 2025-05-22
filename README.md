@@ -31,11 +31,11 @@ from MetaPaC import MetaPaC
 ```bash
 test = pd.read_csv('filter_TPM_test.csv', index_col=0)
 ```
-3. PaC subtype prediction
+3. PaC subtype prediction, switch to your desired directory for uploading
 ```bash
 RanBALL.Predict(Exp = test, exp_type = 'TPM')
+
 ```
-   exp_type also could be 'Raw_count' and 'FPKM', which would be transformed to TPM for model training.
 
 4. Example Outputs
 
