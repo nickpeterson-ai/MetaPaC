@@ -25,10 +25,15 @@ pip install .
 1. download MetaPaC and LIMMAdata.csv from the github
 2. open MetaPaC in jupytr notebook
 3. specify the current directory, put LIMMAdata.csv or your input data in this directory
-4. specify the target directory for the output in the evaluation area of the code
-5. enter in the name of your input in block 4
+   ![Specify the Directory](directory.png)
+   ![Specify the Input](input.png)
+5. specify the target directory for the output in the evaluation area of the code
+6. enter in the name of your input in block 4
 ## Optional
-6. use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers.
+1. use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers.
+2. change the configuration of the code to work for the combinatin blocks by removing the hashtags from the path below
+   
+   ![Output pathways](outputpath.png)
    
 ```
 3. PaC su
