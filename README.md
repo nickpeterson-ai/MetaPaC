@@ -22,18 +22,17 @@ pip install .
 ```
 ## Tutorials
 ### Jupyter notebook
-1. Modify the System Path and import module
-```bash
-import sys; sys.path.append('MetaPaC')
-from MetaPaC import MetaPaC
+1. download MetaPaC and LIMMAdata.csv from the github
+2. open MetaPaC in jupytr notebook
+3. specify the current directory, put LIMMAdata.csv or your input data in this directory
+4. specify the target directory for the output in the evaluation area of the code
+5. enter in the name of your input in block 4
+## Optional
+6. use the other blocks of part 4 to measure performance of all possible unique combinations of 2 or 4 base classifiers.
+   
 ```
-2. unzip and read the test file
-```bash
-test = pd.read_csv('filter_TPM_test.csv', index_col=0)
-```
-3. PaC subtype prediction, switch to your desired directory for uploading
-```bash
-RanBALL.Predict(Exp = test, exp_type = 'TPM')
+3. PaC su
+
 
 ```
 
@@ -41,7 +40,8 @@ RanBALL.Predict(Exp = test, exp_type = 'TPM')
 
 ![Example Outputs](OUTPUTgithub.png)
 
-The prediction results will be stored and exported to a folder named stackeval (10 classifiers LOO) in your specified directory
+The prediction results and evaluations will be stored and exported to a folder named stackeval (10 classifiers LOO) in your specified directory.
+evaluations are saved for all base and meta-learning classifiers
 
 ## Bug Report
 
