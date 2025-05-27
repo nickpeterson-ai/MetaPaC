@@ -1,5 +1,5 @@
-# MetaPaC: A Novel <ins>Meta</ins>-learning Model for <ins>Pa</ins>ncreatic <ins>C</ins>ancer <ins>S</ins>ubtype Prediction 
-**MetaPaC** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for Pancreatic Cancer subtype prediction based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaC is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may provide insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
+# MetaPaCS: A Novel <ins>Meta</ins>-learning Model for <ins>Pa</ins>ncreatic <ins>C</ins>ancer <ins>S</ins>ubtype Prediction 
+**MetaPaCS** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for Pancreatic Cancer subtype prediction based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaCS is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may provide insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
 
 ## Flowchart of MetaPaCS
 ![Flowchart of MetaPaCS](flowchart.png)
@@ -40,7 +40,7 @@ Evaluations are saved for all base and meta-learning classifiers.
 
 ## Bug Report
 
-If you find any bugs or problems, or you have any comments on MetaPaCS, please don't hesitate to contact via email nickpeterson@unmc.edu or [Issues](https://github.com/wan-mlab/MetaPaC/issues).
+If you find any bugs or problems, or you have any comments on S, please don't hesitate to contact via email nickpeterson@unmc.edu or [Issues](https://github.com/wan-mlab/MetaPaCS/issues).
 
 ## Authors
 Mengtao Sun, Nick Peterson, Shibiao Wan, Xinchao Wu
