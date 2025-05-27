@@ -1,8 +1,8 @@
-# MetaPaC: A Novel <ins>Meta</ins>-learning Model for <ins>Pa</ins>ncreatic <ins>C</ins>ancer Subtype Prediction 
+# MetaPaC: A Novel <ins>Meta</ins>-learning Model for <ins>Pa</ins>ncreatic <ins>C</ins>ancer <ins>S</ins>ubtype Prediction 
 **MetaPaC** (an Ensemble stacking-Based Model for Identifying Pancreatic Cancer Subtypes), is an accurate and cost-effective model for Pancreatic Cancer subtype prediction based on RNA-seq Expression data only. Leveraging multiple different machine learning techniques, MetaPaC is able to identify accurately and efficiently predict 4 different Pcancreatic Cancer subtypes, which may provide insights into the characteristics of these subtypes that can significantly aid clinical decision-making processes.
 
-## Flowchart of MetaPaC
-![Flowchart of MetaPaC](flowchart.png)
+## Flowchart of MetaPaCS
+![Flowchart of MetaPaCS](flowchart.png)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,8 +13,8 @@
 
 ## Tutorials
 ### Jupyter notebook
-1. Download MetaPaC and LIMMAdata.csv from the github
-2. Open the MetaPaC code in jupyter notebook
+1. Download MetaPaCS and LIMMAdata.csv from the github
+2. Open the MetaPaCS code in jupyter notebook
 3. Specify the current directory, put LIMMAdata.csv or your input data in this directory
    ![Specify the Directory](directory.png)
 4. Put LIMMAdata.csv (test data) or your own input data (must be structured as below) in this directory
@@ -40,13 +40,13 @@ Evaluations are saved for all base and meta-learning classifiers.
 
 ## Bug Report
 
-If you find any bugs or problems, or you have any comments on RanBALL, please don't hesitate to contact via email nickpeterson@unmc.edu or [Issues](https://github.com/wan-mlab/MetaPaC/issues).
+If you find any bugs or problems, or you have any comments on MetaPaCS, please don't hesitate to contact via email nickpeterson@unmc.edu or [Issues](https://github.com/wan-mlab/MetaPaC/issues).
 
 ## Authors
 Mengtao Sun, Nick Peterson, Shibiao Wan, Xinchao Wu
 
 ## Publication
-MetaPaC: A novel meta-learning model for pancreatic cancer subtype prediction
+MetaPaCS: A novel meta-learning model for pancreatic cancer subtype prediction
 Nick Peterson, Mengtao Sun, Xinchao Wu, Jieqiong Wang, Shibiao Wan
 bioRxiv TBD; doi: TBD
 
